@@ -33,19 +33,19 @@ async function checkweather(city)
 
     switch(weather_data.weather[0].main)
     {
-        case 'clouds':
+        case 'Clouds':
             weather_img.src="/zeel/cloudy.png";
             break;
-        case 'clear':
+        case 'Clear':
             weather_img.src="/zeel/clean.png";
             break;
-        case 'rain':
+        case 'Rain':
             weather_img.src="/zeel/rainy.png";
             break;
-        case 'mist':
+        case 'Mist':
             weather_img.src="/zeel/mist.png";
             break;
-        case 'snow':
+        case 'Snow':
             weather_img.src="/zeel/snow.png";
             break;
     }
